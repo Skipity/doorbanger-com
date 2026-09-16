@@ -1,0 +1,6 @@
+{
+  "mode": "Built-in image_gen",
+  "prompt": "Create a square 1024x1024 editorial cartoon portrait for the DoorBangers team page. Image 1 (zac.jpeg) is the IDENTITY reference and actual subject: preserve his recognizable facial structure, long face, high forehead, swept-back wavy light hair, eyes, expression, and clean-shaven face. Preserve his open-collar white shirt and pinstriped blazer, rendering the blazer in black ink rather than blue. Image 2 is STYLE ONLY, not the identity: match its newspaper woodcut / hand-drawn editorial pen portrait, fine hatching, confident imperfect black ink outlines, warm ivory #F2EBDD paper background, extremely restrained orange #FF4D00 accent. Upper-chest bust centered with room above hair and around shoulders, same portrait scale as style reference. Remove the original photographic background entirely. Warm and approachable, accurate likeness over exaggeration. No text, no borders, no logos, no gradients, no photorealistic shading, no 3D. Do not borrow facial features or stubble from the style reference. Output a single finished square illustration at 1024x1024.",
+  "identityReference": "zac.jpeg",
+  "styleReference": "assets/team/zach-placeholder.png"
+}

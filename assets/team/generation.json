@@ -1,0 +1,9 @@
+{
+  "mode": "Built-in image_gen",
+  "basePrompt": "Create a single square editorial cartoon headshot placeholder for a company team page. Fictional adult male character, NOT an actual likeness. Newspaper woodcut meets warm hand-drawn pen caricature, confident imperfect black ink outlines, flat warm ivory #F2EBDD background, tiny accents in vivid orange #FF4D00, no other colors, no gradient, no typography, no borders, no logos, no photorealism, no 3D. Bust from upper chest, centered with generous space around head. Friendly, capable, unpretentious, work shirt. ",
+  "subjects": {
+    "andrew": "Middle-aged fictional man, wavy short hair, slightly rugged face, open friendly smile, collared work shirt.",
+    "zach": "Fictional man in his thirties, short curly hair, light stubble, lively warm smile, simple plain crewneck shirt.",
+    "al": "Older fictional man, short hair, rectangular glasses, thoughtful friendly smile, plain collared work shirt."
+  }
+}
