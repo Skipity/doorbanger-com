@@ -1,30 +1,35 @@
 # DoorBangers
 
-Static HTML and Tailwind CSS website with a field-manual / newspaper visual direction.
+A two-page static website built from `Doorbangers Homepage.md` and `Doorbangers Leadership Bios.md`. Plain HTML, Tailwind CSS v4, and a small vanilla JavaScript enhancement for the mobile menu. No React, Next.js, or runtime framework.
 
 ## Preview
 
-Open `index.html` directly, or run:
+Open `index.html` directly, or run `npm run dev` and visit http://localhost:8000. Compiled CSS, fonts, and imagery are included; serving the site needs no npm installation or external CDN.
+
+## Edit and build
 
 ```sh
-python3 -m http.server 8000
+npm ci
+npm run build
 ```
 
-Visit http://localhost:8000. No framework, package installation, or build step is required.
+Use `npm run watch` while editing HTML or `src/styles.css`. The build produces `assets/site.css`. Content is authored in HTML; the supplied markdown files remain the editorial source.
 
 ## Files
 
-- `index.html`: homepage with recruiting copy, benefits, and homeowner section.
-- `team.html`: team biographies, quotes, and illustrated portraits.
-- `assets/team/`: portrait assets and image-generation prompts.
-- `zac.jpeg`: source photograph for Zach’s illustrated portrait.
+- `index.html`: recruiting story, benefits, and homeowner information.
+- `team.html`: leadership quotes and complete, always-visible biographies.
+- `src/styles.css`: Tailwind source, responsive components, and light/dark tokens.
+- `assets/site.css`: compiled production stylesheet.
+- `assets/site.js`: mobile menu dismissal, including Escape-key support.
+- `assets/fonts/`: self-hosted Barlow Condensed and DM Sans, with licenses.
+- `assets/porch-illustration.png`: original generated conceptual illustration.
+- `docs/design.md`: Taste adaptation, source audit, and asset provenance.
 
-Navigation connects the homepage and team page. The previous homepage design has been removed.
+The alternate `index2.html`, `team2.html`, original portrait assets, and supplied markdown files are preserved. Fictional leadership portraits are not presented as real people on the new website.
 
-## Design assets
+## Publishing
 
-The site uses Barlow Condensed with Arial, black ink, warm paper, and signal orange. Tailwind’s browser CDN and Google Fonts require an internet connection. Before production, compile Tailwind to local CSS: https://tailwindcss.com/docs/installation/play-cdn.
+Upload `index.html`, `team.html`, `robots.txt`, `sitemap.xml`, and `assets/` to any static host. No Node server or client router is needed. Canonical and sharing URLs use https://doorbangers.com.
 
-Zach’s portrait is based on the supplied photograph. Andrew and Al still have clearly labeled fictional cartoon placeholders. Portraits display at up to 420px on desktop and 300px on phones.
-
-The homepage field-photography area and application destination are still placeholders. The future customer conversations are labeled as imagined. No application data is collected.
+The site collects no personal data and has no application form. A real recruiting email or application URL is needed before adding a recruiting submission CTA. Benefit amounts and terms are reproduced from the supplied homepage brief.
