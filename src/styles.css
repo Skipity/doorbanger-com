@@ -86,3 +86,22 @@ button,summary{cursor:pointer}
 }
 @media(min-width:768px) and (max-width:1100px){.desktop-nav{gap:18px}.desktop-nav .nav-link{font-size:12px}.wordmark{font-size:28px}.essay-section{gap:40px}}
 @media(max-width:767px){.essay-intro{padding-block:48px}.essay-title{font-size:clamp(48px,10vw,76px)}.essay-section{grid-template-columns:1fr;gap:24px;padding-block:40px}.essay-section h2{font-size:40px}.essay-copy{font-size:16px;line-height:1.8}.essay-next{flex-direction:column;padding-bottom:42px}}
+
+@source "../privacy.html";
+@source "../terms.html";
+@layer components{
+.legal-page{max-width:900px;padding-block:64px 80px}
+.legal-intro h1{font-size:clamp(46px,7vw,80px);margin-block:22px}
+.legal-intro>p:last-child{font-size:14px;line-height:1.7}
+.legal-toc{display:flex;flex-wrap:wrap;gap:12px 24px;border-block:1px solid var(--line);padding-block:24px;margin-block:32px 40px;font-size:14px}
+.legal-toc a,.legal-section a,.footer-legal a{text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--line);overflow-wrap:anywhere}
+.legal-toc a:hover,.legal-section a:hover,.footer-legal a:hover{text-decoration-color:var(--accent)}
+.legal-section{margin-top:36px;font-size:17px;line-height:1.8;overflow-wrap:anywhere}
+.legal-section h2{font-size:23px;font-weight:600;line-height:1.35;margin-bottom:16px}
+.legal-section p+p{margin-top:16px}
+.legal-address{font-style:normal;margin-block:16px}
+.legal-footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:18px 32px;margin-top:28px;color:var(--muted);font-size:12px;line-height:1.7}
+.footer-legal{display:flex;flex-wrap:wrap;gap:12px 24px}
+.footer-legal a[aria-current=page]{color:var(--text);text-decoration-color:var(--accent)}
+}
+@media(max-width:767px){.legal-page{padding-block:42px 56px}.legal-section{font-size:16px}.legal-section h2{font-size:21px}.legal-toc{display:grid;gap:14px}.legal-footer{flex-direction:column}}

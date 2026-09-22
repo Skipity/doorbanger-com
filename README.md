@@ -1,6 +1,6 @@
 # DoorBangers
 
-A four-page static website with the original recruiting and team pages built from `Doorbangers Homepage.md` and `Doorbangers Leadership Bios.md`. Plain HTML, Tailwind CSS v4, and a small vanilla JavaScript enhancement for the mobile menu. No React, Next.js, or runtime framework.
+A six-page static website with the original recruiting and team pages built from `Doorbangers Homepage.md` and `Doorbangers Leadership Bios.md`. Plain HTML, Tailwind CSS v4, and a small vanilla JavaScript enhancement for the mobile menu. No React, Next.js, or runtime framework.
 
 ## Preview
 
@@ -21,6 +21,7 @@ Use `npm run watch` while editing HTML or `src/styles.css`. The build produces `
 - `team.html`: leadership quotes and complete, always-visible biographies.
 - `approach.html`: culture, responsibility to homeowners, and the career we want reps to build.
 - `why.html`: founder essay explaining the business thesis and what remains to be proved.
+- `privacy.html` and `terms.html`: website privacy policy, request contacts, and terms.
 - `src/styles.css`: Tailwind source, responsive components, and light/dark tokens.
 - `assets/site.css`: compiled production stylesheet.
 - `assets/site.js`: mobile menu dismissal, including Escape-key support.
@@ -32,10 +33,12 @@ The alternate `index2.html`, `team2.html`, original portrait assets, and supplie
 
 ## Publishing
 
-Upload `index.html`, `team.html`, `approach.html`, `why.html`, `robots.txt`, `sitemap.xml`, and `assets/` to any static host. No Node server or client router is needed. Canonical and sharing URLs use https://doorbangers.com.
+Upload `index.html`, `team.html`, `approach.html`, `why.html`, `privacy.html`, `terms.html`, `robots.txt`, `sitemap.xml`, and `assets/` to any static host. No Node server or client router is needed. Canonical and sharing URLs use https://doorbangers.com.
 
-The site collects no personal data and has no application form. A real recruiting email or application URL is needed before adding a recruiting submission CTA. Benefit amounts and terms are reproduced from the supplied homepage brief.
+The site has no accounts, application form, analytics scripts, or browser storage. Hosting infrastructure receives request data, and visitors may send personal information through the listed email or telephone contacts. A real recruiting email or application URL is needed before adding a recruiting submission CTA. Benefit amounts and terms are reproduced from the supplied homepage brief.
 
 ## Editorial additions
 
 Our Approach and Why DoorBangers develop the culture and business thesis from the founder brief. The original homepage and team content remain intact, with shared navigation expanded. New copy uses continuous, conversational prose and describes projected rep economics and expansion as goals to prove. The new pages use a responsive editorial layout with the existing fonts, colors, and light/dark themes.
+
+Legal page scope and app-store requirements are documented in `docs/legal-scope.md`.
