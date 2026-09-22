@@ -29,7 +29,7 @@ Use `npm run watch` while editing HTML or `src/styles.css`. The build produces `
 - `assets/porch-illustration.png`: original generated conceptual illustration.
 - `docs/design.md`: Taste adaptation, source audit, and asset provenance.
 
-The alternate `index2.html`, `team2.html`, original portrait assets, and supplied markdown files are preserved. Fictional leadership portraits are not presented as real people on the new website.
+The supplied markdown files and remaining portrait assets are preserved. The obsolete `index2.html`, `team2.html`, and root `zac.jpeg` were removed. Fictional leadership portraits are not presented as real people on the new website.
 
 ## Publishing
 

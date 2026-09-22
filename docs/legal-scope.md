@@ -13,7 +13,7 @@ Prepared September 22, 2026 for the current public website. These are website po
 
 ## Confirmed from this repository
 
-The six current pages are static HTML. JavaScript manages the navigation only. Assets and fonts are self-hosted. There are no accounts, forms, payment integrations, analytics scripts, cookies, browser storage, device permissions, or app implementations in the current site code. Legacy index2.html and team2.html are not current entry pages and were not changed.
+The six current pages are static HTML. JavaScript manages the navigation only. Assets and fonts are self-hosted. There are no accounts, forms, payment integrations, analytics scripts, cookies, browser storage, device permissions, or app implementations in the current site code. Legacy index2.html and team2.html have been removed.
 
 The privacy policy is expressly scoped to this website and direct inquiries. It does not claim to describe future field software, audio coaching, AI processing, job fulfillment, or employee systems. No functioning app account-deletion flow has been verified or created.
 

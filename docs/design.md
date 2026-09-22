@@ -27,3 +27,7 @@ assets/porch-illustration.png was generated using the built-in imagegen tool. It
 ## Application destination
 
 No recruiting address or application URL was supplied. CTAs navigate to the role description and leadership page. No mock submission flow, invented address, or success message is used.
+
+## Subsequent cleanup
+
+The owner removed the obsolete index2.html and team2.html pages and the root zac.jpeg portrait. The current homepage and team page remain the entry pages.
