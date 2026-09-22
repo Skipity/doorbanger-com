@@ -71,3 +71,18 @@ button,summary{cursor:pointer}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 
 @media(max-width:380px){.team-intro h1{font-size:52px}}
+
+@source "../approach.html";
+@source "../why.html";
+@layer components{
+.essay-intro{padding-block:76px 64px;max-width:1000px}
+.essay-title{font-size:clamp(58px,8vw,108px);margin-top:24px}
+.essay-deck{font-size:clamp(19px,2.1vw,24px);line-height:1.6;max-width:44ch;margin-top:30px;color:var(--muted)}
+.essay-section{display:grid;grid-template-columns:.65fr 1fr;gap:80px;border-top:1px solid var(--line);padding-block:64px}
+.essay-section h2{font-size:clamp(36px,4vw,54px);line-height:1.06}
+.essay-copy{max-width:62ch;font-size:18px;line-height:1.8}
+.essay-copy p+p{margin-top:1.25em}
+.essay-next{display:flex;flex-wrap:wrap;justify-content:space-between;gap:28px;border-top:1px solid var(--line);padding-block:36px 60px}
+}
+@media(min-width:768px) and (max-width:1100px){.desktop-nav{gap:18px}.desktop-nav .nav-link{font-size:12px}.wordmark{font-size:28px}.essay-section{gap:40px}}
+@media(max-width:767px){.essay-intro{padding-block:48px}.essay-title{font-size:clamp(48px,10vw,76px)}.essay-section{grid-template-columns:1fr;gap:24px;padding-block:40px}.essay-section h2{font-size:40px}.essay-copy{font-size:16px;line-height:1.8}.essay-next{flex-direction:column;padding-bottom:42px}}
